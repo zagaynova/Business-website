@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-<title>STAMP HUB</title>
+<title>Blasting Off With Bootstrap</title>
 <link href='includes/bootstrap/css/bootstrap.css' rel='stylesheet'>
 <link href='includes/bootstrap/css/main.css' rel='stylesheet'>
 </head>
 <body>
-  <div class='navbar navbar-default navbar-static-top'>
-    <div class='container'>
-      <div class='navbar-header'>
-        <a href='/' class='navbar-brand'>
-        STAMP HUB</a>
-        <button type='button' class='navbar-toggle'
-          data-toggle='collapse'
-          data-target='.navbar-collapse'>
-            <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-        </button>
-      </div>
+	<div class='navbar navbar-default navbar-static-top'>
+		<div class='container'>
+			<div class='navbar-header'>
+				<a href='/' class='navbar-brand'>
+				Blasting Off With Bootstrap</a>
+				<button type='button' class='navbar-toggle'
+					data-toggle='collapse'
+					data-target='.navbar-collapse'>
+						<span class='sr-only'>Toggle navigation</span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+						<span class='icon-bar'></span>
+				</button>
+			</div>
 
-      <ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
-              <li><a href='tickets.html'>About</a></li>
-              <li><a href='stations.html'>Contact</a></li>
-              <li>
-                <a href='#' data-target='#' data-toggle='dropdown' >Collection<span class='caret '></span></a>
-
-                <ul class='dropdown-menu'>
-                  <li><a href='hot.html'>Listing</a></li>
-                  <li class='divider'></li>
-                  <li><a href='blog'>Hot</a></li>
-                  <li><a href='blog'>Sale</a></li>
-        </ul>
+			<ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
+              <li><a href='tickets.html'>Tickets</a></li>
+              <li><a href='stations.html'>Stations</a></li>
+              <li class='open'>
+              	<a href='about.html' data-target='#' data-toggle='drop-down'>About<span class='caret'></span></a>
+              	<ul class='dropdown-menu'>
+              		<li><a href='story.html'>Our Story</a></li>
+              		<li><a href='contact.html'>Contact Us</a></li>
+              		<li class='divider'></li>
+              		<li><a href='blog'>Blog</a></li>
+              		<li class='divider'></li>
+              		<li><a href='http://twitter.com/...'>Twitter</a></li>
+ 					<li><a href='http://facebook.com/...'>Facebook</a></li>
+				</ul>
               </li>
             </ul>
         </div>
@@ -43,7 +45,7 @@
 	<div class='container'>
 		<div class='row well well-lg'>
 			<div class='col-md-6'>
-				<h1>About</h1>
+				<h2>The Fastest Way to Space</h2>
 				<p class='lead'>Make your way to space in the comfort of your own rocket, elevator or transporter.</p>
 			
 				<button type='button' class='btn btn-lg btn-default'>Take the Tour</button>
@@ -56,24 +58,24 @@
 	</div>
 																																		
 
-	<div class='container' id="content">
+	<div class='container-fluid'>
 		<div class='row features'>
 			<div class='row text-center'>
 				<div class='col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0'> 
-					<i class='glyphicon glyphicon-fire'></i>
-					<h3>Hot</h3>
+					<i class='glyphicon glyphicon-briefcase'></i>
+					<h3>Book Today!</h3>
 					<p>Even if you're traveling tomorrow, you can still get tickets today. We have a number of conveniently located ports around the globe to service everyone.</p>
 				</div>
 
 				<div class="col-sm-4 col-xs-6">
-					<i class='glyphicon glyphicon-folder-open'></i>
-					<h3>Listing</h3>
+					<i class='glyphicon glyphicon-random'></i>
+					<h3>Go Anywhere</h3>
 					<p>If you need to get to space today, why not try out a transporter? Despite the claims, there are have been no deaths in the last 6 weeks!</p>
 				</div>
 
 				<div class="col-sm-4 col-xs-6">
-					<i class='glyphicon glyphicon-piggy-bank'></i>
-					<h3>Sale</h3>
+					<i class='glyphicon glyphicon-send'></i>
+					<h3>RocketBus&reg;</h3>
 					<p>For cheapest fares, catch the next RocketBus&reg; to the stars. Cheaper on your wallet, and easiest</p>
 				</div>
 			</div>
@@ -89,6 +91,7 @@
             <p><i>Blasting Off With Bootstrap</i> is the fastest way to space. <a href='tickets.html'>Book your ticket today</a>!</p>
             <p><a href='about.html'>More About Us
               <i class='glyphicon glyphicon-arrow-right'></i></a></p>
+            
           </div>
           <div class='col-md-offset-1 col-sm-2 col-xs-6'>
             <h4>Links</h4>
@@ -112,6 +115,7 @@
           <div class='col-md-3 col-md-offset-1 col-sm-4 col-xs-6'>
             <h4>Contact Us</h4>
             <ul class='list-unstyled'>
+              
               <li><i class='glyphicon glyphicon-globe'> </i> Orlando, FL</li>
               <li><i class='glyphicon glyphicon-phone'> </i> 1-555-blast-off</li>
               <li><i class='glyphicon glyphicon-envelope'> </i><a href='mailto:blastingoff@codeschool.com'> blastingoff@codeschool.com</a></li>
@@ -121,6 +125,7 @@
         </div>
       </div>
     </div>
+
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script src='includes/bootstrap/js/bootstrap.js'></script>
 </body>

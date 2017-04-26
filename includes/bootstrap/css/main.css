@@ -1,0 +1,13 @@
+.features .glyphicon {
+	font-size: 32px;
+	
+}
+
+
+
+@media (max-width: 767px){
+	.navbar-fixed-bottom{
+		/*background-color: yellow;*/
+		position: relative;
+	}	
+}
