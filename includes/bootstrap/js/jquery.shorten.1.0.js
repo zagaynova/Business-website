@@ -12,10 +12,10 @@
 	$.fn.shorten = function (settings) {
 	
 		var config = {
-			showChars: 200,
+			showChars: 100,
 			ellipsesText: "...",
-			moreText: "Hide this silly story",
-			lessText: "Read more"
+			moreText: "more",
+			lessText: "less"
 		};
 
 		if (settings) {
